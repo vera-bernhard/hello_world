@@ -6,8 +6,12 @@ def hello_world():
 def hello_universe():
     return 'Hello Universe'
 
+def hello(name):
+    return 'Hello {}'.format(name)
+
 def main():
     print(hello_universe())
+    print(hello('MT student'))
 
 if __name__ == '__main__':
     main()
