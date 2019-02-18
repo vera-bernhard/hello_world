@@ -4,7 +4,7 @@ def hello_world():
     return 'Hello World'
 
 def hello_universe():
-    return 'Hello Universe'
+    return 'Hello Universe; 42'
 
 def hello(name):
     return 'Hello {}'.format(name)
